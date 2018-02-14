@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export GOROOT=/xbin/go
+export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin
-export GOPATH=/xbin/golib/go_basic:/xbin/golib/serv_util_idl:$HOME/project/go
+export GOPATH=$HOME/go:$HOME/project/go
 
 # Path to your oh-my-zsh installation.
 export ZSH=/data/home/wuyong/.oh-my-zsh
