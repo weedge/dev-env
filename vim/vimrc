@@ -94,7 +94,7 @@ let g:tagbar_type_go = {
 \ }
 
 "--------TagbarToggle set ---------------------
-nmap <F8> :TagbarToggle<CR>
+nnoremap <leader>y :TagbarToggle<CR>
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
@@ -176,6 +176,9 @@ nnoremap <silent>\s :colorscheme solarized<CR>
 nnoremap <silent>\i :colorscheme ir_black<CR>
 let g:molokai_original = 1
 let g:rehash256 = 1
+
+"------ack---------------------
+nnoremap <Leader>a :Ack  
 
 
 
