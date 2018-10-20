@@ -95,7 +95,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export GOROOT=/xbin/go
-export GOPATH=/xbin/golib/go_basic:/xbin/golib/serv_util_idl:$HOME/project/go
 
-export PATH=$PATH:$HOME/bin:$HOME/emacs/bin:$GOROOT/bin:$HOME/go/bin
+export GOROOT=/usr/local/go
+export PATH=$PATH:$HOME/bin:$GOROOT/bin:$HOME/go/bin
+export GOPATH=$HOME/go:$HOME/project/go
