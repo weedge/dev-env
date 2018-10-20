@@ -18,9 +18,9 @@ set termencoding=utf8
 set fencs=utf8,gbk,gb2312,gb18030,cp936
 set completeopt+=longest " Optimize auto complete
 set completeopt-=preview " Optimize auto complete
-set maxmempattern=2000  " Maximum amount of memory (in Kbyte) to use for pattern matching. The maximum value is about 2000000.  Use this to work without a limit.
+set maxmempattern=2000000  " Maximum amount of memory (in Kbyte) to use for pattern matching. The maximum value is about 2000000.  Use this to work without a limit.
 
-"set expandtab         "Use spaces instead of tabs
+set expandtab         "Use spaces instead of tabs
 ""Ignore these files when completing names
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,node_modules/*
 
