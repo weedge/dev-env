@@ -26,6 +26,7 @@ set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.
 
 set backup " Set backup
 "set undofile " Set undo
+"set foldmethod=indent
 
 colorscheme desert
 set tabstop=4               "tab = 4 spaces
