@@ -17,6 +17,9 @@ export PROMPT_COMMAND='if [ $? -eq 0 ] ; then export PS1=$PS1_SUCCESS; else expo
 LS_COLORS='di=00;32:ln=00;36:pi=40;33:so=00;35:do=00;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:*.py=00;96:*.sh=01;94:ex=01;37'
 
 
-export GOROOT=/usr/local/go
+export GOROOT=$HOME/app/go
 export PATH=$PATH:$HOME/bin:$GOROOT/bin:$HOME/go/bin
-export GOPATH=$HOME/go:$HOME/project/go
+export GOPATH=$HOME/go
+export GOPROXY=https://goproxy.io
+export GO111MODULE=on
+
